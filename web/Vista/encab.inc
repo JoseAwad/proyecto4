@@ -22,7 +22,7 @@
 </head>
 <style>
 body{
-    background:url(../../proyecto4/Vista/img/fondo.jpg) repeat scroll;
+    background:url(Vista/img/fondo.jpg) repeat scroll;
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
