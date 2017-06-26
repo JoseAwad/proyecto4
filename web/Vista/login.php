@@ -23,7 +23,7 @@ if(isset($_GET['error']) && $_GET['error']=='NoHaySesion'){
 </head>
 <style>
     body{
-	background:url(../../proyecto4/Vista/img/fondo.jpg) repeat scroll;
+	background:url(./img/fondo.jpg) repeat scroll;
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;

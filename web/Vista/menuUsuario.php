@@ -3,7 +3,7 @@
 require('../Modelo/sesion.class.php');
 $sesion = new sesion();
 if(!$sesion->validar()){
-    header('Location: http://localhost/dashboard/proyecto4/Vista/login.php?error=NoHaySesion');
+    header('Location: http://localhost/proyecto4/Vista/login.php?error=NoHaySesion');
     exit;
 }else{
     require('../Modelo/conexion.class.php');
@@ -64,6 +64,6 @@ if(!$sesion->validar()){
 </div>
 <?php
     include('footer.inc');
-    header('Location: /dashboard/Proyecto3/index.php?error=accesoRestringido');
+    header('Location: ./Proyecto4/index.php?error=accesoRestringido');
 }
 ?>
